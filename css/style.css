@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+	max-width: 1300px;
+	background-color: #FDF6E5;
+	font-family: 'Lato', sans-serif;
+	margin: 0 auto;
+}
+
+/* Navbar */
+.nav {
+	outline: none;
+	background-color: rgb(232, 217, 182);
+	opacity: 0.8;
+}
+
+.nav .nav-item .nav-link {
+	font-size: 0.938em;
+	color: black;
+	letter-spacing: 1px;
+}
+
+.nav .nav-item .nav-link:hover {
+	color: red;
+}
+
+
+h1	{
+	margin-top: 50px;
+	letter-spacing: 5px;
+	font-weight: bolder;
+	font-size: 2.3em;
+}
+
+h3 {
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+	background-color: #FDF6E5;
+	padding: 0;
+}
+.full-width-image {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+} 
+
+
+/* Synopsis */
+#synopsis {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+#synopsis p {
+	padding-top: 25px;
+}
+
+
+/* Trailer */
+#trailer {
+	margin-bottom: 70px;
+}
+#trailer h3 {
+	padding-bottom: 30px;
+}
+
+
+/* Cast */
+#cast h3 {
+	padding-bottom: 30px;
+}
+#cast {
+	margin-bottom: 50px;
+
+}
+.card {
+	border: none;
+	padding: 10px 10px;
+	background-color: #FDF6E5;
+
+}
+
+
+/* Footer */
+#footer {
+	line-height: normal;
+	padding-bottom: 2px;
+	padding-top: 15px;
+}
+#footer p {
+	font-size: 0.625em;
+	letter-spacing: 1px;
+}
+.heart {
+	color: #F20000;
+	font-size: 0.625em;
+}
+#footer a {
+	text-decoration: underline;
+	color: black;
+}
+#footer a:hover {
+	color: #F20000;
+}
